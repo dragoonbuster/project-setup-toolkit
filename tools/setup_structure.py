@@ -49,7 +49,7 @@ The goal is a well-organized project structure that scales with growth.
 """
 
 def main():
-    template_path = Path(__file__).parent / "STRUCTURE_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "STRUCTURE_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

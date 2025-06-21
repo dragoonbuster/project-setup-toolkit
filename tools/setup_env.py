@@ -52,7 +52,7 @@ The goal is a template that helps developers configure the project correctly.
 """
 
 def main():
-    template_path = Path(__file__).parent / "ENV_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "ENV_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

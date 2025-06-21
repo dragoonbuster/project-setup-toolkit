@@ -35,7 +35,7 @@ The goal is a CLAUDE.md that helps AI assistants understand and work with this s
 """
 
 def main():
-    template_path = Path(__file__).parent / "CLAUDE_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "CLAUDE_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

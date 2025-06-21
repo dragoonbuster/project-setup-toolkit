@@ -1,6 +1,6 @@
 # CLAUDE.md - AI Assistant Guidelines
 
-> **IMPORTANT**: Always read `PROJECT_SETUP_PLAN.md` and `PROJECT_REVIEW_PLAN.md` at the start of each new context window for current implementation status and next steps.
+> **IMPORTANT**: Always read `docs/PROJECT_SETUP_PLAN.md` and `docs/PROJECT_REVIEW_PLAN.md` at the start of each new context window for current implementation status and next steps.
 
 ## Project Overview
 **Project Name**: project-setup-toolkit  

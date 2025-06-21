@@ -43,7 +43,7 @@ Output the complete commit message ready for use with git commit -m
 """
 
 def main():
-    template_path = Path(__file__).parent / "COMMIT_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "COMMIT_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

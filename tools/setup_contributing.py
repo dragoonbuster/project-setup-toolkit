@@ -45,7 +45,7 @@ The goal is to make contributing as easy as possible.
 """
 
 def main():
-    template_path = Path(__file__).parent / "CONTRIBUTING_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "CONTRIBUTING_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

@@ -44,7 +44,7 @@ The goal is a prompt that another AI can use to implement the feature correctly.
 """
 
 def main():
-    template_path = Path(__file__).parent / "FEATURE_PROMPT_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "FEATURE_PROMPT_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

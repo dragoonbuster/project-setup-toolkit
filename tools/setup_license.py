@@ -46,7 +46,7 @@ The goal is appropriate legal protection while meeting project goals.
 """
 
 def main():
-    template_path = Path(__file__).parent / "LICENSE_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "LICENSE_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

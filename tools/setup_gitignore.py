@@ -43,7 +43,7 @@ The goal is a .gitignore that prevents accidental commits of unwanted files.
 """
 
 def main():
-    template_path = Path(__file__).parent / "GITIGNORE_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "GITIGNORE_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")

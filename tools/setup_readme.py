@@ -41,7 +41,7 @@ The goal is a README that helps users understand, install, and use the project e
 """
 
 def main():
-    template_path = Path(__file__).parent / "README_template.md"
+    template_path = Path(__file__).parent.parent / "templates" / "README_template.md"
     
     if not template_path.exists():
         print(f"❌ Error: Template not found at {template_path}")
